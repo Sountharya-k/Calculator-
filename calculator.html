@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+    <title>CALCULATOR</title>
+</head>
+<body>
+        <div class="calculator">
+            <input type="text" class="input" id="input" disabled>
+            <div class="buttons" id="buttons">
+                <button id="one" onclick="getvalue('1')">1</button>
+                <button id="two" onclick="getvalue('2')">2</button>
+                <button id="three" onclick="getvalue('3')">3</button>
+                <button id="add" onclick="getvalue('+')">+</button>
+                <button id="six" onclick="getvalue('6')">6</button>
+                <button id="five" onclick="getvalue('5')">5</button>
+                <button id="four" onclick="getvalue('4')">4</button>
+                <button id="sub" onclick="getvalue('-')">-</button>
+                <button id="seven" onclick="getvalue('7')">7</button>
+                <button id="eight" onclick="getvalue('8')">8</button>
+                <button id="nine" onclick="getvalue('9')">9</button>
+                <button id="multi" onclick="getvalue('*')">*</button>
+                <button id="clear" onclick="clearDisplay()">C</button>
+                <button id="zero" onclick="getvalue('0')">0</button>
+                <button id="equal" onclick="Result()">=</button>
+                <button id="divide" onclick="getvalue('/')">/</button>
+                <button id="fullstop" onclick="getvalue('.')">.</button>
+            </div>
+        </div>
+</body>
+</html>
